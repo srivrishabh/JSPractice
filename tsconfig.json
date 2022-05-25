@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "amd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "./build/build.js",
+        "sourceMap": true
+    },
+    "includes": [
+        "./src/DataStructures/**/*"
+    ]
+}
